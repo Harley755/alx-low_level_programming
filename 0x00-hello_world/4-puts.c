@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * started by main function
+ * main - main function (entry point)
  * used puts function to display text
- * return: 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
