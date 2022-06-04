@@ -1,18 +1,18 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
- * main - main function (Entry point)
- * Check if last digit of n is greater than 5 or less than 6 or is 0
+ * main - Entry point
+ * Check if last digital of n is greater than 5,
+ * is 0 or less than 6
  * Return: 0 for success
  */
 int main(void)
 {
 	int n, last_digit;
-	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = n % 2;
+	last_digit = n % 10;
 	if (last_digit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
@@ -22,8 +22,8 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	}
 	else
-	{	
+	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
-	}	
+	}
 	return (0);
 }
