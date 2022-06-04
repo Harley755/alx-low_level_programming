@@ -1,18 +1,17 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
- * main - main function (entry point)
- * check if n is positive, negative or eagl to zero
- * Return: 0 for success
+ * main - main (Entry point)
+ * Check if n is positive, equal to zero or negative
+ * Return: 0 for Success
  */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0) 
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
@@ -20,7 +19,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is negative\n", n);
 	}
