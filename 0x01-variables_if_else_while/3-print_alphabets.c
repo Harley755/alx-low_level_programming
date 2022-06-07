@@ -10,6 +10,7 @@ int main(void)
 {
 	char c = 'a';
 	int count;
+
 	do {
 		putchar(c);
 		if (c == 'z')
