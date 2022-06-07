@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-	char a = 'd';
+	char c = 'z';
 	int count;
 
 	do {
-		putchar(a);
+		putchar(c);
 		count++;
-		a--;
+		c--;
 	} while (count < 26);
 	putchar('\n');
 	return (0);
