@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- * Compare last_digit to 0 5 and 6
- * Return: 0 for Success
+ * main - main function (Entry point)
+ * Check if last digital of number is upper of 5,
+ * lower of 6 and upper of 0 or equal to 0
+ * Return:  0 for Success
  */
 int main(void)
 {
 	int n, last_digit;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
@@ -27,40 +27,3 @@ int main(void)
 	}
 	return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
