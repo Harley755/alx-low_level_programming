@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - function main (entry point)
+ * main - main function (entry point)
  * Prints _putchar, followed by a new line.
- * Retunr: 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
